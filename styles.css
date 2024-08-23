@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Yellowtail&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+*{
+    padding:0;
+    margin:0;
+    width: 100%;
+    
+}
+
+.home{
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(0deg, rgba(126, 126, 126, 1) 0% , rgba(0, 0, 0, 0)), url(img/george-martin.jpg);
+}
+
+.books{
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(0deg, rgba(126, 126, 126, 1) 0% , rgba(0, 0, 0, 0)), url(img/map.jpg);
+}
+
+.info{
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(0deg, rgba(126, 126, 126, 1) 0% , rgba(0, 0, 0, 0)), url(img/game-of-thrones.jpg);
+}
+
+
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25%;
+    font-family: "Yellowtail", cursive;
+    font-size: 50px;
+    font-weight: 600;
+    color: black;
+}
+.kitaplar-h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15%;
+    font-family: "Yellowtail", cursive;
+    font-size: 50px;
+    font-weight: 500;
+    color: white;
+}
+p{
+    text-align :center;
+    margin-top: 10px;
+    font-size: 20px;
+    color: black;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    color: white;
+}
+.info-p{
+    text-align :center;
+    margin-top: 10px;
+    font-size: 20px;
+    color: black;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
+nav, a
+{
+   text-align: center;
+   text-decoration: none;
+   
+    list-style: none;
+    color: white;
+    font-size: 40px;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    color: #FF9100;
+    line-height: 150px;
+
+}
+
+a{
+    padding-right: 25px;
+}
+
+.grid-book {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+  }
+  
+  .book-item {
+    background: transparent;
+    padding: 20px;
+    border-radius: 5px;
+   
+
+    color: #eae3d2;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+  }
+
+footer {
+    background: transparent;
+    color: #eae3d2;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+  }
